@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: caresched-whatsapp-gateway
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    port: 3001
+    envVars:
+      - key: DATABASE_URL
+        sync: false

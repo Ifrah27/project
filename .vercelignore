@@ -1,0 +1,9 @@
+.wwebjs_auth
+.wwebjs_cache
+qr.png
+node_modules
+dist
+scratch
+.env
+.env.example
+*.log
